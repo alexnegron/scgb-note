@@ -23,6 +23,8 @@ $$
 
 # Long-time covariance calculation
 
+plzz
+
 In [[Three unit rate model|the note defining the rate model]], we wrote down a linear SDE characterizing the dynamics of the fluctuations $\delta \mathbf{r}.$ This SDE is given by: 
 
 ![[Three unit rate model#^0898d9]]
