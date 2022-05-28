@@ -25,7 +25,7 @@ $$
 
 ## Model.
 
-I want to see if this fucking thing will work. PLEASE!
+plz.
 
 Neurons $\set{E_1,E_2,E_I}$ evolve with dynamics described by
 
