@@ -2,5 +2,6 @@ mkdocs
 mkdocs-material
 mkdocs-roamlinks-plugin
 mkdocs-embed-file-plugins
+mkdocs-ezlinks-plugin
 python-markdown-math
 Markdown
