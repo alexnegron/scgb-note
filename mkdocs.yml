@@ -48,7 +48,5 @@ extra_javascript:
 
 plugins:
   - search
-  - ezlinks:
-        wikilinks: true
   - embed_file
   - roamlinks
