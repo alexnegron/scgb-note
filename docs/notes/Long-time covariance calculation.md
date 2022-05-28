@@ -8,23 +8,22 @@ $$
 \DeclareMathOperator{\prob}{\mathbb{P}}
 \DeclareMathOperator{\qprob}{\mathbb{Q}}
 \DeclareMathOperator{\E}{\mathbb{E}}
-\newcommand{\set}[1]{\\left\{\**1**{: #1 .hash}  
-\\right\}}
-\newcommand{\pa}[1]{\\left(\#1\\right)}
-\newcommand{\ang}[1]{\\left<\**1**{: #1 .hash}  
-\\right>}
-\newcommand{\bra}[1]{\\left[\**1**{: #1 .hash}  
-\\right]}
-\newcommand{\abs}[1]{\\left|\**1**{: #1 .hash}  
-\\right|}
-\newcommand{\norm}[1]{\\left\|**1**{: #1 .hash}  
-\\right\|}
+\newcommand{\set}[1]{\left\{**1**{: #1 .hash}  
+\right\}}
+\newcommand{\pa}[1]{\left(#1\right)}
+\newcommand{\ang}[1]{\left<**1**{: #1 .hash}  
+\right>}
+\newcommand{\bra}[1]{\left[**1**{: #1 .hash}  
+\right]}
+\newcommand{\abs}[1]{\left|**1**{: #1 .hash}  
+\right|}
+\newcommand{\norm}[1]{\left\|**1**{: #1 .hash}  
+\right\|}
 $$
-
 
 # Long-time covariance calculation
 
-plzzzzz
+plzz
 
 In [[Three unit rate model|the note defining the rate model]], we wrote down a linear SDE characterizing the dynamics of the fluctuations $\delta \mathbf{r}.$ This SDE is given by: 
 
