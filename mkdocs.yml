@@ -80,11 +80,7 @@ plugins:
   - tooltipster-links
   - embed_file
 extra_javascript:
-  - assets/js/mathjax.js
-  - assets/js/utils.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - assets/js/tooltipster.bundle.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 extra_css:
     - assets/css/img-grids-floats.css
     - assets/css/utils.css
