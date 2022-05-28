@@ -35,57 +35,20 @@ theme:
 markdown_extensions:
   - footnotes
   - mdx_math
-  
-  #- attr_list
-  #- sane_lists
-  #- meta
-  #- smarty
-  #- tables
-  #- mdx_breakless_lists
-  
   - pymdownx.arithmatex:
       generic: true
-  
-  #- pymdownx.magiclink
-  #- pymdownx.critic
-  #- pymdownx.caret
-  #- pymdownx.keys
-  #- pymdownx.mark
-  #- pymdownx.tilde
-  #- pymdownx.highlight:
-  #    use_pygments: true
-  #    anchor_linenums: true
-  #- pymdownx.tasklist:
-  #     custom_checkbox: true
-  #- pymdownx.emoji:
-  #    emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - admonition
   - nl2br
   - pymdownx.details
   - toc:
       permalink: true
-#   - pymdownx.inlinehilite
-#   - pymdownx.snippets
-#   - pymdownx.superfences:
-#       custom_fences:
-#         - name: dataview
-#           class: dataview
-#           format: !!python/name:pymdownx.superfences.fence_div_format
-#         - name: mermaid
-#           class: mermaid
-#           format: !!python/name:mermaid2.fence_mermaid
   
 extra_javascript:
-  - assets/js/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 plugins:
   - search
-  #- ezlinks:
-  #      wikilinks: true
-  #- mermaid2
-  #- awesome-pages
-  #- tooltipster-links
+  - ezlinks:
+        wikilinks: true
   - embed_file
   - roamlinks
