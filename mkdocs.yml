@@ -74,11 +74,11 @@ markdown_extensions:
 #         - name: mermaid
 #           class: mermaid
 #           format: !!python/name:mermaid2.fence_mermaid
-
   
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
+  - assets/js/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
 plugins:
   - search
   #- ezlinks:
