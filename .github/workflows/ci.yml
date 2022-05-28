@@ -37,3 +37,6 @@ jobs:
           fileList=$(git status --porcelain | tr -d '\n' | tr -d 'M' |tr -d '??')
           git commit -m "🏓 Publishing from ObsidianMD" -m "${fileList}"
           git push
+      
+      - name: math stuff
+        run: pip install python-markdown-math
