@@ -26,7 +26,7 @@ jobs:
       - name: Mkdocs build
         run: |
           pip install -r requirements.txt
-          mkdocs gh-deploy --force --clean
+          mkdocs gh-deploy --force
       - name: clean source files
         run: rm ${{github.workspace}}/source/*
       - name: Push updateds files
