@@ -1,15 +1,10 @@
-site_name: your_site_name
+site_name: SCGB notes
 site_description: A cool description
-site_url: https://mara-li.github.io/obsidian-mkdocs-publisher-template/
+site_url: https://alexnegron.github.io/scgb-note
 
 theme:
     name: 'material'
-    logo: assets/logo/favicons.png
-    favicon: assets/logo/favicons.png
     custom_dir: overrides
-    font:
-        text: Karla
-        code: Ubuntu Mono
     language: en
     palette:
 
@@ -46,6 +41,7 @@ markdown_extensions:
   - smarty
   - tables
   - mdx_breakless_lists
+  - mdx_math
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.details
