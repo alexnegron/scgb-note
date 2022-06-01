@@ -19,11 +19,19 @@ $$
 \right|}
 \newcommand{\norm}[1]{\left\|**1**{: #1 .hash}  
 \right\|}
+
+\newcommand{\paren}[1]{\mathopen{}\left( {#1}_{{}_{}}\,\negthickspace\right)\mathclose{}}
+\newcommand{\bracket}[1]{\mathopen{}\left[ {**1**{: #1 .hash}  
+}_{{}_{}}\,\negthickspace\right]\mathclose{}}
 $$
 
 # Long-time covariance calculation
 
-plzzxxxx!
+Ok. Let's try out these new macros.
+
+$$
+	\paren{1+\paren{x^2}}.
+$$
 
 In [[Three unit rate model|the note defining the rate model]], we wrote down a linear SDE characterizing the dynamics of the fluctuations $\delta \mathbf{r}.$ This SDE is given by: 
 
