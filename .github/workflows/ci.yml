@@ -21,7 +21,10 @@ jobs:
               obs2mk --GA --keep file "$f"
             fi
           done
-          obs2mk --GA clean    
+          obs2mk --GA clean  
+      - name: math stuff
+        run: | 
+          pip install https://github.com/mitya57/python-markdown-math/archive/master.zip
       - name: Mkdocs build
         run: |
           pip install -r requirements.txt
