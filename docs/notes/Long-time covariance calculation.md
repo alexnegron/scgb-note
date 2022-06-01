@@ -22,6 +22,8 @@ $$
 \newcommand{\paren}[1]{\mathopen{}\left( {#1}_{{}_{}}\,\negthickspace\right)\mathclose{}}
 \newcommand{\bracket}[1]{\mathopen{}\left[ {**1**{: #1 .hash}  
 }_{{}_{}}\,\negthickspace\right]\mathclose{}}
+\newcommand{\se}[1]{\mathopen{}\left\{ {**1**{: #1 .hash}  
+}_{{}_{}}\,\negthickspace\right\}\mathclose{}}
 $$
 
 # Long-time covariance calculation
@@ -31,6 +33,12 @@ Ok. Let's try out these new macros.
 $$
 	\paren{1+\paren{x^2}}.
 $$
+What about: 
+
+$$
+	\tau_i \dot{r}_i(t) = - r_i(t) + \se{\mu_i +\sum\limits_{j\in\se{E_1,E_2,I}} W_{ij}r_j(t)+ \sqrt{2\sigma_i}\xi_i(t)}_+, \qquad i \in \se{E_1,E_2,I}
+$$
+
 
 In [[Three unit rate model|the note defining the rate model]], we wrote down a linear SDE characterizing the dynamics of the fluctuations $\delta \mathbf{r}.$ This SDE is given by: 
 
