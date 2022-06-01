@@ -19,7 +19,6 @@ $$
 \right|}
 \newcommand{\norm}[1]{\left\|**1**{: #1 .hash}  
 \right\|}
-
 \newcommand{\paren}[1]{\mathopen{}\left( {#1}_{{}_{}}\,\negthickspace\right)\mathclose{}}
 \newcommand{\bracket}[1]{\mathopen{}\left[ {**1**{: #1 .hash}  
 }_{{}_{}}\,\negthickspace\right]\mathclose{}}
