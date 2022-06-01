@@ -35,11 +35,7 @@ theme:
 markdown_extensions:
   - footnotes
   - mdx_math
-  - pymdownx.arithmatex:
-      generic: true
   - admonition
-  - nl2br
-  - pymdownx.details
   - toc:
       permalink: true
   
