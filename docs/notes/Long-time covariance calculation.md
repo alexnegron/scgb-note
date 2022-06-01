@@ -32,7 +32,7 @@ In [[Three unit rate model|the note defining the rate model]], we wrote down a l
 The solution is obtained as
 
 $$
-	\delta \mathbf{r}(t) = \exp\set{-\mathbf{M}t}\delta\mathbf{r}(0) + \int_{-\infty}^{t}\exp\set{-\mathbf{M}\pa{t-t'}}\mathbf{D}\ \underbrace{d\mathbf{W}(t')}_{\boldsymbol{\xi}(t')}
+	\delta \mathbf{r}(t) = \exp\left\{-\mathbf{M}t\right\}\delta\mathbf{r}(0) + \int_{-\infty}^{t}\exp\left\{-\mathbf{M}\pa{t-t'}\right\}\mathbf{D}\ \underbrace{d\mathbf{W}(t')}_{\boldsymbol{\xi}(t')}
 $$
 
 with mean $\ang{\delta \mathbf{r}(t)} = \exp\set{-\mathbf{M}t}\ang{\delta \mathbf{r}(0)}$ (expectation of integral is given by an [Ito integral property](marginnote3app://note/5CC92031-57BF-4688-9A49-DB3BCBB8BE43)).
