@@ -33,11 +33,23 @@ theme:
         - navigation.expand
 # Extensions
 markdown_extensions:
-  - footnotes
-  - mdx_math
-  - admonition
-  - toc:
-      permalink: true
+    - footnotes
+    - mdx_math
+  # - attr_list
+    - pymdownx.arithmatex:
+       generic: true
+  # - pymdownx.superfences
+  # - pymdownx.details
+  # - pymdownx.magiclink
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+#   - pymdownx.emoji:
+#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - admonition
+    - nl2br
+    - pymdownx.details
+    - toc:
+        permalink: true
   
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
